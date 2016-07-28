@@ -11,6 +11,8 @@ def fizz_buzz
       puts 'Fizz'
     elsif (number % 5).zero?
       puts 'Buzz'
+    else
+      puts number
     end
   end
 end
